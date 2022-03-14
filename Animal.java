@@ -13,8 +13,6 @@ public class Animal {
     }
 
     public static void main(String[] args) {
-        System.out.println(getDefaultGreeting());
-        System.out.println(getBirdGreeting());
-        System.out.println(getCatGreeting());
+        String message = getDefaultGreeting();
     }
 }
