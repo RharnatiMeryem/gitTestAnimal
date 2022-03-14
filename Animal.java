@@ -4,7 +4,12 @@ public class Animal {
         return "Hello!";
     }
 
+    public static String getBirdGreeting() {
+        return "Tweet!";
+    }
+
     public static void main(String[] args) {
-        getDefaultGreeting();
+        System.out.println(getDefaultGreeting());
+        System.out.println(getBirdGreeting());
     }
 }
