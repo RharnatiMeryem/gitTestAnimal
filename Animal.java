@@ -8,8 +8,13 @@ public class Animal {
         return "Tweet!";
     }
 
+    public static String getCatGreeting() {
+        return "Meow!";
+    }
+
     public static void main(String[] args) {
         System.out.println(getDefaultGreeting());
         System.out.println(getBirdGreeting());
+        System.out.println(getCatGreeting());
     }
 }
